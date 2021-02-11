@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+button {
+    width: 120px;
+    height: 90px;
+    margin: 20px;
+    font-size: 35px;
+    background-color: #6E9E41;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    transition: all 1s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a7c97f;
+    color:  #000000;
+}
+button:focus {
+    background-color: gray;
+    color: black;
+}
+.ocultar {
+    display: none;
+}
+.manzanita {
+    width: 20%;
+    margin: auto;
+}
